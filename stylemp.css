@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.i0{
+    border: 2px solid;
+}
+label.logo{
+    color:rgb(5, 86, 21);
+    font-size:x-large;
+    line-height: 80px;
+    margin-left: 20px;
+    font-family: "Abril Fatface", serif;
+}
+body{
+    font-family:monospace;
+}
+    header>nav{
+    background:rgba(207, 211, 208, 0.2);
+    height:80px;
+    width:100%;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 20PX;
+
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 5px;
+    margin-right: 25px;
+
+}
+nav ul li a{
+    color:rgb(249, 250, 249);
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 7px 13px;
+    font-weight: 800;
+    
+}
+a:hover{
+    background-color:rgba(10, 120, 8, 0.663);
+    color:rgb(190, 243, 208);
+    transition: .5s;
+    box-shadow:0 6px 10px 0 rgb(12, 91, 47,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:active{ 
+    background-color:rgb(12, 91, 47);
+    color:rgb(190, 243, 208);
+    transition: .5s;
+}
+.ss{
+    background-color: rgb(224, 235, 245);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    width:300px;
+    margin-left: 300px;
+}
+.ss1{
+    background-color: rgb(224, 235, 245);
+    border-radius: 8px;
+    padding: 7px 13px;
+    border: none;
+    background-color:rgb(12, 91, 47);
+    color:rgb(190, 243, 208);
+    cursor:pointer;
+    transition: all 0.3s ease;
+    
+    
+}
+.ss1:hover{
+    padding: 9px 15px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.1);
+}
+.ss1:active{
+    background-color: #121314;
+    color:white;
+}
+footer{
+    height:200px;
+    margin-top:100px;
+    color: #fff;
+    margin-left: 0;
+    text-align: center;
+    padding: 20px;
+    margin-right: 0;
+    background-color: rgba(6, 110, 6, 0.837);
+    
+}
+
+.social-icons {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*.navvf{
+    list-style:none;
+    margin-right: 0px;
+    font-family:monospace;
+    box-sizing: border-box;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}*/
+footer>nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the navigation links */
+.navvf li {
+   margin-right: 0px; /* Add spacing between list items */
+}
+
+/* Style the navigation links */
+.navvf li a {
+    text-decoration: none;
+    color: #fbfbfb;
+    font-weight: bold;
+}
+
+
+
